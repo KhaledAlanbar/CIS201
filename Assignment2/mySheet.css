@@ -1,0 +1,54 @@
+*{
+    background-color: bisque;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; /* Change font size to 16px */
+    color: #333; /* Change text color to dark gray */
+}
+
+header {
+    padding: 10px;
+}
+
+.heading {
+    text-align: center;
+    color: #F5F5F5;
+    font-size: 28px; /* Change font size to 28px */
+    margin: 0; /* Remove default margin */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text {
+    text-align: justify;
+    font-size: 18px; /* Change font size to 18px */
+    line-height: 1.5; /* Increase line height for better readability */
+    color: #555; /* Change text color to light gray */
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px; /* Change font size to 20px */
+    color: #333; /* Change text color to dark gray */
+}
+
+th {
+    background-color: #2C3E50;
+    color: #F5F5F5;
+}
+
+.list:nth-child(even) {
+    background-color: #F5F5F5;
+}
