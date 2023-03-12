@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework 1</title>
+	<link rel="stylesheet" type="text/css" href="myStyle.css">
+</head>
+<body>
+	<header>
+		<h1 class="heading">Name: Khaled Alanbar </h1> 
+		<h1 class="heading">Student Id: 202211365</h1>
+	</header>
+	<main>
+		<p class="text">Hi, my name is Khaled Alanbar and I'm a student at Al-Yamamah University. I take my studies very seriously and I'm always striving for academic excellence. In my free time, I enjoy playing video games, reading, and traveling. My ultimate goal is to use my education to make a positive impact on the world and help others in need. I believe that my hardworking attitude and diverse interests will help me achieve my goals and make a meaningful difference.</p>
+		<table>
+			<tr>
+				<th>Academic Achievements</th>
+			</tr>
+			<tr>
+				<td class="list">Consistent academic excellence and top grades.</td>
+			</tr>
+			<tr>
+				<td class="list">Volunteering in community service projects.</td>
+			</tr>
+			<tr>
+				<td class="list">Participated and excelled in various extracurricular activities.</td>
+			</tr>
+		</table>
+	</main>
+</body>
+</html>
