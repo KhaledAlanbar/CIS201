@@ -1,0 +1,43 @@
+.heading {
+	color:blueviolet;
+	font-size: 24px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.text {
+	color: navy;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.link {
+	color:aquamarine;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+* {
+	 background-color:beige;
+  }
+
+p.warning {
+	color:red;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+p.highlight_yellow{
+
+	background-color: yellow;
+}
+
+h2{
+	color:brown;
+	font-size: 20px;
+}
+
+a[target]{
+	color: orange;
+}

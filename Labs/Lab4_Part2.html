@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style>
+		table, th, td {
+		  border: 1px solid black;
+		  border-collapse: collapse;
+		  padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h2>Registration Form</h2>
+	<form action="#" method="POST">
+		<table cellspacing="20" cellpadding="15">
+			<tr>
+				<td><label for="first-name">First Name:</label></td>
+				<td><input type="text" id="first-name" name="first-name" required></td>
+			</tr>
+			<tr>
+				<td><label for="last-name">Last Name:</label></td>
+				<td><input type="text" id="last-name" name="last-name" required></td>
+			</tr>
+			<tr>
+				<td><label for="email">Email:</label></td>
+				<td><input type="email" id="email" name="email" required></td>
+			</tr>
+			<tr>
+				<td><label for="age">Age:</label></td>
+				<td><input type="number" id="age" name="age" required></td>
+			</tr>
+			<tr>
+				<td><label for="gender">Gender:</label></td>
+				<td>
+					<select id="gender" name="gender" required>
+						<option value="">Select</option>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="major">Major:</label></td>
+				<td>
+					<select id="major" name="major" required>
+						<option value="">Select</option>
+						<option value="software-engineering">Software Engineering</option>
+						<option value="network-engineering">Network Engineering and Security</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="favorite-course">Favorite Course:</label></td>
+				<td><input type="text" id="favorite-course" name="favorite-course" required></td>
+			</tr>
+			<tr>
+				<td><label for="course-type">Course Type:</label></td>
+				<td>
+					<input type="radio" id="course-type-backend" name="course-type" value="back-end-development" required>
+					<label for="course-type-backend">Back End Development</label><br>
+					<input type="radio" id="course-type-java" name="course-type" value="programming-in-java" required>
+					<label for="course-type-java">Programming in Java</label><br>
+					<input type="radio" id="course-type-security" name="course-type" value="security" required>
+					<label for="course-type-security">Security</label>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
