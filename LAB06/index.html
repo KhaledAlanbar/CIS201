@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Electronics Store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome to Electronics Store</h1>
+	</header>
+	<main>
+		<form action="#" method="post">
+			<fieldset>
+				<legend>Register</legend>
+				<label for="firstname">First Name:</label>
+				<input type="text" id="firstname" name="firstname"><br>
+
+				<label for="lastname">Last Name:</label>
+				<input type="text" id="lastname" name="lastname"><br>
+
+				<label for="birthday">Birthday:</label>
+				<input type="date" id="birthday" name="birthday"><br>
+
+				<label for="country">Country:</label>
+				<input type="text" id="country" name="country"><br>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password"><br>
+
+				<label for="confirmpassword">Confirm Password:</label>
+				<input type="password" id="confirmpassword" name="confirmpassword"><br>
+
+				<input type="submit" value="Next">
+				<input type="reset" value="Reset">
+			</fieldset>
+		</form>
+
+		<section>
+            <h2>List of Products</h2>
+            <p>Here are our available products to buy online:</p>
+            <form action="#" method="post">
+                <table class="product-table">
+                <thead>
+                  <tr>
+                    <th>Product Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                    
+                       <b>iPhone 11</b>
+                     
+                    </td>
+                    <td>
+                      <ul>
+                        <li>6.1-inch Liquid Retina display</li>
+                        <li>A13 Bionic chip with third-generation Neural Engine</li>
+                        <li>Dual-camera system with 12MP Ultra Wide and Wide cameras</li>
+                        <li>Face ID for secure authentication and Apple Pay</li>
+                      </ul>
+                    </td>
+                    <td>$699</td>
+                  </tr>
+                  <tr>
+                    <td>
+                    
+                      <b>iPhone 12</b>
+                    
+                   </td>
+                    <td>
+                      <ul>
+                        <li>6.1-inch Super Retina XDR display</li>
+                        <li>A14 Bionic chip with next-generation Neural Engine</li>
+                        <li>Dual-camera system with 12MP Ultra Wide and Wide cameras</li>
+                        <li>Face ID for secure authentication and Apple Pay</li>
+                      </ul>
+                    </td>
+                    <td>$799</td>
+                  </tr>
+                  <tr>
+                    <td>
+                    
+                      <b>iPhone 13</b>
+                    
+                   </td>
+                    <td>
+                      <ul>
+                        <li>6.1-inch Super Retina XDR display</li>
+                        <li>A15 Bionic chip with Neural Engine</li>
+                        <li>Dual-camera system with 12MP Ultra Wide and Wide cameras</li>
+                        <li>Face ID for secure authentication and Apple Pay</li>
+                      </ul>
+                    </td>
+                    <td>$899</td>
+                  </tr>
+                </tbody>
+              </table>
+           <p>Choose A Product: </p>
+                <select id="product-table" name="Iphone" required="">
+                  <option value="">Select</option>
+                  <option value="iphone11">iPhone11</option>
+                  <option value="iphone12">iPhone12</option>
+                  <option value="iphone13">iPhone13</option>
+                </select>
+              
+              <input type="submit" value="Submit">
+            </form>
+          </section>
+          
+		
+		
+	</main>
+	<footer>
+		<p>&copy; 2023 Online Shopping</p>
+	</footer>
+</body>
+</html>
