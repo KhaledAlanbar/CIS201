@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing:border-box;
+    
+  }
+  
+  body{
+    min-height: 100vh; 
+  }
+  
+  header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background-color: #000000;  
+  }
+  
+  .logo-image {
+    max-width: 20%; 
+    height: 50px;
+    display: block; 
+    margin: 5 auto; 
+    background-color: #000000;
+  }
+  
+  
+  .navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    padding: 0 10px;
+    margin-right: 10px;
+  }
+  
+  .navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+  }
+  
+  .navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+/* Contact Section */
+#Contact {
+    padding: 50px;
+    background-color: #f8f8f8;
+  }
+  
+  #Contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  #Contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #Contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  #Contact li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #Contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #Contact label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #Contact input,
+  #Contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #ccc;
+  }
+  
+  #Contact input:focus,
+  #Contact textarea:focus {
+    outline: none;
+    border: 1px solid #474747;
+  }
+  
+  #Contact button[type="submit"] {
+    background-color: #474747;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #Contact button[type="submit"]:hover {
+    background-color: #000000;
+  }
+  
+
+
+
+
+  
+  /* Footer */
+  footer {
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: rgb(31, 31, 32);
+  }

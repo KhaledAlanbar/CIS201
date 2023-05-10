@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing:border-box;
+    
+  }
+  
+  body{
+    min-height: 100vh; 
+  }
+  
+  header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background-color: #000000;  
+  }
+  
+  .logo-image {
+    max-width: 20%; 
+    height: 50px;
+    display: block; 
+    margin: 5 auto; 
+    background-color: #000000;
+  }
+  
+  
+  .navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    padding: 0 10px;
+    margin-right: 10px;
+  }
+  
+  .navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+  }
+  
+  .navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+
+
+ /* Home */
+#Home {
+  text-align: center;
+  color: white;
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400/41513861063575.5a66f280805d5.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+#Home h2 {
+  font-size: 48px;
+}
+
+#Home p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+/*Store*/
+
+#Store{
+  background-color: #000000;
+  height: 550px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+/* Styles for the image and text layout */
+.store-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.store-container img {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+/* Styles for the store locations */
+.store-locations-container {
+  margin-top: 40px;
+}
+
+.store-location {
+  margin-bottom: 20px;
+}
+
+.store-info h3 {
+  margin-top: 0;
+}
+
+.store-info p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.store-info a {
+  color: rgb(82, 82, 83);
+}
+
+.store-info a:hover {
+  text-decoration: underline;
+}
+
+/* Styles for headings */
+#Store h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#Store h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+/* Review section styling */
+#Reviews {
+  padding: 20px;
+  background-color: #000000;
+}
+
+#Reviews h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.review {
+  width: calc(33.33% - 10px);
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.review h3 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.review p {
+  font-size: 14px;
+}
+
+.stars {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  color: #ffd700;
+}
+
+.fa-star {
+  font-size: 16px;
+}
+
+.checked {
+  color: #ffd700;
+}
+
+
+/* Financial options section styling */
+#Financial {
+  background-color: #000000;
+  padding: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color:#ffffff ;
+}
+
+.financial-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.financial-option {
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.financial-option h3 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.financial-option p {
+  margin: 0;
+}
+
+.financial-option button {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.financial-option button:hover {
+  background-color: #000;
+}
+
+
+
+  /* Footer */
+  footer {
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: rgb(31, 31, 32);
+  }
